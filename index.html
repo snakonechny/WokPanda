@@ -446,10 +446,10 @@
 
                 var mapOptions = {
                     // How zoomed in you want the map to start at (always required)
-                    zoom: 22,
+                    zoom: 15,
 
                     // The latitude and longitude to center the map (always required)
-                    center: new google.maps.LatLng(48.921935, 24.714443), // New York
+                    center: marker1,
 
                     // How you would like to style the map.
                     // This is where you would paste any style found on Snazzy Maps.
@@ -463,14 +463,12 @@
                 // Create the Google Map using out element and options defined above
                 var map = new google.maps.Map(mapElement, mapOptions);
 
-                var marker = new google.maps.Marker ({
+                var marker = new google.maps.Marker({
                   position: marker1,
                   map: map,
                   title: 'WokPanda, Грушевського, 22'
 
                 });
-
-                marker.setMap(map);
 
             }
         </script>
