@@ -438,48 +438,40 @@
             // When the window has finished loading create our google map below
             google.maps.event.addDomListener(window, 'load', init);
 
-            var map;
-            function initMap() {
-              map = new google.maps.Map(document.getElementById('map'), {
-                center: {lat: -34.397, lng: 150.644},
-                zoom: 8
-              });
-            }           
-
-          //  function init() {
+            function init() {
                 // Basic options for a simple Google Map
                 // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
 
                 //var mylatlong = new google.maps.LatLng{lat: 48.921935, long: 24.714443};
 
-            //    var mapOptions = {
+                var mapOptions = {
                     // How zoomed in you want the map to start at (always required)
-              //      zoom: 16,
+                    zoom: 16,
 
                     // The latitude and longitude to center the map (always required)
-                //    center: {lat: 48.921935, long: 24.714443},
+                    center: {lat: 48.921935, long: 24.714443},
 
                     // How you would like to style the map.
                     // This is where you would paste any style found on Snazzy Maps.
-                  //  styles: [	{		featureType:"all",		elementType:"all",		stylers:[		{			invert_lightness:true		},		{			saturation:10		},		{			lightness:30		},		{			gamma:0.5		},		{			hue:"#1C705B"		}		]	}	]
-                //};
+                    styles: [	{		featureType:"all",		elementType:"all",		stylers:[		{			invert_lightness:true		},		{			saturation:10		},		{			lightness:30		},		{			gamma:0.5		},		{			hue:"#1C705B"		}		]	}	]
+                };
 
                 // Get the HTML DOM element that will contain your map
                 // We are using a div with id="map" seen below in the <body>
-              //  var mapElement = document.getElementById('map');
+                var mapElement = document.getElementById('map');
 
                 // Create the Google Map using out element and options defined above
-              //  var map = new google.maps.Map(mapElement, mapOptions);
+                var map = new google.maps.Map(mapElement, mapOptions);
 
                 //var marker = new google.maps.Marker ({
                 //  position: mylatlong,
                 //  map: map,
                 //  title: 'WokPanda, Грушевського, 22'
 
-            //    });
+                });
 
               //  marker.setMap(map);
-          //  }
+            }
 
           //  google.maps.event.addDomListener(window, 'load', initialize);
 
