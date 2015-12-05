@@ -461,9 +461,7 @@
                 var mapElement = document.getElementById('map');
 
                 // Create the Google Map using out element and options defined above
-                //var map = new google.maps.Map(mapElement, mapOptions);
-
-                var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+                var map = new google.maps.Map(mapElement, mapOptions);
 
                 var marker = new google.maps.Marker ({
                   position: marker1,
