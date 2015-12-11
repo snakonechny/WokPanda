@@ -11,27 +11,28 @@
         <meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
-		<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/bootstrap-theme.css">
-        <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 		<!-- skin -->
 		<link rel="stylesheet" href="skin/default.css">
     </head>
 
     <body>
 		<section id="header" class="appear"></section>
-		<div class="navbar navbar-fixed-top" role="navigation" data-0="line-height:100px; height:100px; background-color:rgba(0,0,0,0.3);" data-300="line-height:60px; height:60px; background-color:rgba(0,0,0,1);">
+		<div class="navbar navbar-fixed-top" role="navigation" data-0="line-height:50px; height:50px; background-color:rgba(0,0,0,0.3);" data-300="line-height:60px; height:60px; background-color:rgba(0,0,0,1);">
 			 <div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 						<span class="fa fa-bars color-white"></span>
 					</button>
-					<h1><a class="navbar-brand" href="index.html" data-0="line-height:90px;" data-300="line-height:50px;">			WokPanda
+					<h1><a class="navbar-brand" href="index.html" data-0="line-height:50px;" data-300="line-height:50px;">			WokPanda
 					</a></h1>
 				</div>
 				<div class="navbar-collapse collapse">
-					<ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
+					<ul class="nav navbar-nav" data-0="margin-top:5px;" data-300="margin-top:5px;">
 						<li class="active"><a href="index.html">Вгору!</a></li>
 						<li><a href="#section-works">Мен'ю</a></li>
 						<li><a href="#section-map">Де ми?</a></li>
@@ -47,7 +48,7 @@
 
 						<div class="align-center">
               <img src="img/front/logo.png" alt="" />
-							<h2 class="slogan">Ласкаво просимо до WokPanda</h2>
+							<h2 class="slogan">Ласкаво просимо до WokPanda!</h2>
 							<!--<h3 class="slogan">
 							Перший ресторан і сервіс доставки китайської ї'жі в Івано-Франківську
             </h3>
@@ -66,29 +67,26 @@
 				<div class="col-lg-4" >
 					<div class="align-center">
 						<i class="fa fa-mobile fa-5x mar-bot20"></i>
-						<h4 class="text-bold">Замов </h4>
-						<p>Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no.
-						Mei cu dicat voluptaria volumus.
+						<h3 class="text-bold">Ти замовляєш</h3>
+						<p>Зателефонуй на (099) 286-26-23. Вибери страву з нашого меню, вкажи своє ім'я і адресу.
 						</p>
 					</div>
 				</div>
 
 				<div class="col-lg-4" >
 					<div class="align-center">
-						<i class="fa fa-terminal fa-5x mar-bot20"></i>
-						<h4 class="text-bold">Responsive</h4>
-						<p>Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no.
-						Mei cu dicat voluptaria volumus.
+						<i class="fa fa-bicycle fa-5x mar-bot20"></i>
+						<h3 class="text-bold">Ми доставляєм</h3>
+						<p>Наш кур'єр швидко-швидко минає корки на дорогах і заносить твоє замовлення аж до твоїх дверей
 						</p>
 					</div>
 				</div>
 
 				<div class="col-lg-4" >
 					<div class="align-center">
-						<i class="fa fa-bolt fa-5x mar-bot20"></i>
-						<h4 class="text-bold">Customizable</h4>
-						<p>Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no.
-						Mei cu dicat voluptaria volumus.
+						<img src="img/front/redo-box.png" alt="" vspace = "10"/>
+						<h3 class="text-bold">Смачного!</h3>
+						<p>Смакуй оригінальну, корисну їжу з Азії в нашій знамениті коробочці.
 						</p>
 					</div>
 				</div>
@@ -117,7 +115,8 @@
                           <nav id="filter" class="col-md-12 text-center">
                             <ul>
                               <li><a href="#" class="current btn-theme btn-small" data-filter="*">Все!</a></li>
-                              <li><a href="#"  class="btn-theme btn-small" data-filter=".beef" >Гов'ядина</a></li>
+                              <li ><a href="#" class="btn-theme btn-small" data-filter=".veg">Овочі</a></li>
+                              <li><a href="#"  class="btn-theme btn-small" data-filter=".beef" >Телятина</a></li>
                               <li><a href="#"  class="btn-theme btn-small" data-filter=".chicken">Курятина</a></li>
                               <li ><a href="#" class="btn-theme btn-small" data-filter=".seafood">Мореїжа</a></li>
                             </ul>
@@ -126,13 +125,14 @@
                             <div class="row">
                               <div class="portfolio-items isotopeWrapper clearfix" id="3">
 
-                                <article class="col-md-4 isotopeItem beef">
+                  <article class="col-md-4 isotopeItem veg">
 									<div class="portfolio-item">
-										<img src="img/portfolio/img1.jpg" alt="" />
+										<img src="img/menu/img1.jpg" alt="" />
 										 <div class="portfolio-desc align-center">
 											<div class="folio-info">
-												<h5><a href="#">Portfolio name</a></h5>
-												<a href="img/portfolio/img1.jpg" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+												<h5><a>Локшина удон/пшенична з овочами</a></h5>
+                        <h4><a>Локшина удон, перець болгарський, цукіні, цибуля, морква, гриби, стручкова квасоля, цвітна капуста, брокколі, пекінська капуста, кунжут, імбир, часник, кисло солодкий соус</a></h4>
+												<a href="img/menu/img1.jpg" class="fancybox"></a>
 											 </div>
 										 </div>
 									</div>
@@ -140,24 +140,26 @@
 
                                 <article class="col-md-4 isotopeItem chicken">
 									<div class="portfolio-item">
-										<img src="img/portfolio/img2.jpg" alt="" />
+										<img src="img/menu/img2.jpg" alt="" />
 										 <div class="portfolio-desc align-center">
 											<div class="folio-info">
-												<h5><a href="#">Portfolio name</a></h5>
-												<a href="img/portfolio/img2.jpg" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+												<h5><a>Локшина удон/пшенична з куркою</a></h5>
+                        <h4><a>локшина удон, курка, цукіні, цибуля, морква, гриби, пекінська капуста, стручкова квасоля, кунжут, імбир, часник, кисло солодкий соус</a></h4>
+												<a href="img/menu/img2.jpg" class="fancybox"></a>
 											 </div>
 										 </div>
 									</div>
                                 </article>
 
 
-                                <article class="col-md-4 isotopeItem seafood">
+                                <article class="col-md-4 isotopeItem beef">
 									<div class="portfolio-item">
-										<img src="img/portfolio/img3.jpg" alt="" />
+										<img src="img/menu/img3.jpg" alt="" />
 										 <div class="portfolio-desc align-center">
 											<div class="folio-info">
-												<h5><a href="#">Portfolio name</a></h5>
-												<a href="img/portfolio/img3.jpg" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+												<h5><a>Локшина удон/пшенична з телятиною Hot!</a></h5>
+                        <h4><a>локшина удон, телятина, перець болгарський, цибуля ріпчаста, морква, цвітна капуста, стручкова квасоля, гриби, кунжут, імбир, часник, гостро солодкий соус</a></h4>
+												<a href="img/menu/img3.jpg" class="fancybox"></a>
 											 </div>
 										 </div>
 									</div>
