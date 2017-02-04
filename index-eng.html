@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <!-- BASICS -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>WokPanda - Chinese cuisine in Ivano-Frankivsk</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- skin -->
+    <link rel="stylesheet" href="skin/default.css">
+</head>
+
+<body>
+    <section id="header" class="appear"></section>
+    <div class="navbar navbar-fixed-top" role="navigation" data-0="line-height:50px; height:50px; background-color:rgba(0,0,0,0.3);" data-300="line-height:60px; height:60px; background-color:rgba(0,0,0,1);">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="fa fa-bars color-white"></span>
+					</button>
+                <h1><a class="navbar-brand" href="index.html" data-0="line-height:50px;" data-300="line-height:50px;">			WokPanda
+					</a></h1>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav" data-0="margin-top:5px;" data-300="margin-top:5px;">
+                    <li clss="active"><a href="index-eng.html">ENG</a></li>
+                    <li class="active"><a href="index.html">To the top!</a></li>
+                    <li><a href="#section-works">Our menu</a></li>
+                    <li><a href="#section-map">Where are we?</a></li>
+                </ul>
+            </div>
+            <!--/.navbar-collapse -->
+        </div>
+    </div>
+
+    <section class="featured">
+        <div class="container">
+            <div class="row mar-bot5">
+                <div class="col-md-6 col-md-offset-3">
+
+                    <div class="align-center">
+                        <img src="img/front/logo.png" alt="" />
+                        <img src="img/front/logo_phones.png" alt="" />
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services -->
+    <section id="section-services" class="section pad-bot5 bg-white">
+        <div class="container">
+
+            <div class="row mar-bot10">
+                <div class="col-lg-4">
+                    <div class="align-center">
+                        <i class="fa fa-mobile fa-5x mar-bot20"></i>
+                        <h3 class="text-bold">You order</h3>
+                        <p>Pick something on our menu, give us a call, and tell us where to deliver to
+                            <p>By the way, we're open from 11am til 9:45pm every day
+                            </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="align-center">
+                        <i class="fa fa-bicycle fa-5x mar-bot20"></i>
+                        <h3 class="text-bold">We deliver</h3>
+                        <p>Our couriers will bring your order to your door, zippy fast
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="align-center">
+                        <img src="img/front/redo-box.png" alt="" vspace="10" />
+                        <h3 class="text-bold">Bon apetite!</h3>
+                        <p>Enjoy a nutritious, healthy meal in the famous carry-out boxes
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- section menu -->
+    <section id="section-works" class="section appear clearfix">
+        <div class="container">
+
+            <div class="row mar-bot40">
+                <div class="col-md-offset-3 col-md-6">
+                    <div class="section-header">
+                        <h2 class="section-heading animated" data-animation="bounceInUp">Our menu</h2>
+                        <p>Click or tap "All meals" and select your order from this interactive menu</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <nav id="filter" class="col-md-12 text-center">
+                    <ul>
+                        <li><a href="#" class="btn-theme btn-small" data-filter="*">Всі страви</a></li>
+                        <li><a href="#" class="btn-theme btn-small" data-filter=".noodles">Локшини</a></li>
+                        <li><a href="#" class="btn-theme btn-small" data-filter=".rice">Рис</a></li>
+                        <li><a href="#" class="btn-theme btn-small" data-filter=".salad">Салати</a></li>
+                        <li><a href="#" class="btn-theme btn-small" data-filter=".meat">М'ясні страви</a></li>
+                    </ul>
+                </nav>
+
+
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="portfolio-items isotopeWrapper clearfix" id="3">
+                            <article class="col-md-4 isotopeItem noodles">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img1.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 1</a> Яєчна локшина з куркою</a>
+                                            </h3>
+                                            <h4><a>яєчна локшина, курка, цибуля, морква, гриби, пекінська капуста, стручкова квасоля, кунжут, імбир, часник, кисло-солодкий соус</a></h4>
+                                            <h3><a>(400г) - 46грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem noodles">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img2.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 2</a> Локшина удон з овочами</a>
+                                            </h3>
+                                            <h4><a>локшина удон, цибуля, морква, гриби, стручкова квасоля, цвітна капуста, брокколі, пекінська капуста, кунжут, імбир, часник, кисло-солодкий соус</a></h4>
+                                            <h3><a>(400г) - 46грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem noodles">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img3.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 3</a> Локшина удон з куркою</a>
+                                            </h3>
+                                            <h4><a>локшина удон, курка, цибуля, морква, гриби, пекінська капуста, стручкова квасоля, кунжут, імбир, часник, кисло-солодкий соус</a></h4>
+                                            <h3><a>(400г) - 46грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem noodles">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img4.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 4</a> Яєчна локшина зі свининою Hot!</a>
+                                            </h3>
+                                            <h4><a>яєчна локшина, свинина, цибуля, морква, гриби, стручкова квасоля, пекінська капуста, кунжут, імбир, часник, гостро-солодкий соус</a>
+                                                <h4>
+                                                    <h3><a>(400г) - 56грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+
+                            <article class="col-md-4 isotopeItem noodles">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img5.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 5</a> Яєчна локшина з телятиною</a>
+                                            </h3>
+                                            <h4><a>яєчна локшина, телятина, броколі, цибуля, морква, цвітна капуста, стручкова квасоля, гриби, кунжут, імбир, часник, кисло-солодкий соус</a></h4>
+                                            <h3><a>(400г) - 56грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem noodles">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img6.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 6</a> Локшина удон з телятиною Hot!</a>
+                                            </h3>
+                                            <h4><a>локшина удон, телятина, цвітна капуста, цибуля, морква, стручкова квасоля, гриби, кунжут, імбир, часник, гостро-солодкий соус </a></h4>
+                                            <h3><a>(400г) - 56грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem noodles">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img7.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 7</a> Локшина удон зі свининою</a>
+                                            </h3>
+                                            <h4><a>локшина удон, свинина, цибуля, морква, гриби, стручкова квасоля, пекінська капуста, кунжут, імбир, часник, кисло-солодкий соус </a>
+                                                <h4>
+                                                    <h3><a>(400г) - 56грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+
+
+                            <article class="col-md-4 isotopeItem noodles">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img8.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 8</a> Локшина удон з кальмарами</a>
+                                            </h3>
+                                            <h4><a>локшина удон, кальмар, цибуля, морква, гриби, пекінська капуста, броколі, стручкова квасоля, кунжут, імбир, часник, кисло-солодкий соус</a></h4>
+                                            <h3><a>(400г) - 76грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem noodles">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img9.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 9</a> Локшина удон з лососем</a>
+                                            </h3>
+                                            <h4><a>локшина удон, лосось, цибуля, морква, гриби, пекінська капуста, броколі, стручкова квасоля, кунжут, імбир, часник, апельсиновий соус</a></h4>
+                                            <h3><a>(400г) - 88 грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem noodles">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img10.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 10</a> Локшина удон з креветками</a>
+                                            </h3>
+                                            <h4><a>локшина удон, креветки, цибуля, морква, гриби, пекінська капуста, стручкова квасоля, кунжут, імбир, часник, апельсиновий соус</a></h4>
+                                            <h3><a>(400г) - 76грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem noodles">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img11.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 11</a> Локшина удон з креветками і куркою</a>
+                                            </h3>
+                                            <h4><a>локшина удон, креветки, курка, цибуля, морква, гриби, стручкова квасоля, кунжут, імбир, часник, апельсиновий соус</a></h4>
+                                            <h3><a>(400г) - 86грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem noodles">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img12.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 12</a> Локшина удон з мідіями</a>
+                                            </h3>
+                                            <h4><a>локшина удон, мідії, цибуля, морква, гриби, пекінська капуста, цвітна капуста, стручкова квасоля, кунжут, імбир, часник, ананасовий соус</a></h4>
+                                            <h3><a>(400г) - 76грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem noodles">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img13.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 13</a> Локшина удон "Жовте море"</a>
+                                            </h3>
+                                            <h4><a>локшина удон, мідії, кальмар, креветки, морква, цибуля,пекінська капуста, кунжут, імбир, часник, ананасовий соус</a></h4>
+                                            <h3><a>(400г) - 99грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem rice">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img14.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 14</a> Паровий рис зі свининою в ананасовому соусі</a>
+                                            </h3>
+                                            <h4><a>рис паровий, свинина, ананас, кунжут, імбир, часник, ананасовий соус </a></h4>
+                                            <h3><a>(400г) - 65грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem rice">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img15.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 15</a> Паровий рис з курчам генерала Цо, Hot!</a>
+                                            </h3>
+                                            <h4><a>рис паровий, курча, чилі перець, морква, пекінська капуста, кунжут, імбир, часник, гостро-солодкий соус</a></h4>
+                                            <h3><a>(400г) - 65грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem rice">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img16.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 16</a> Паровий рис зі свининою та овочами</a>
+                                            </h3>
+                                            <h4><a>рис паровий, свинина, пекінська капуста, морква, цибуля, кунжут, імбир, часник, кисло-солодкий соус</a></h4>
+                                            <h3><a>(400г) - 65грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem rice">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img17.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 17</a> Рис зі свининою</a>
+                                            </h3>
+                                            <h4><a>рис, свинина, пекінська капуста, цибуля, морква, яйце, кунжут, імбир, часник, кисло-солодкий соус</a></h4>
+                                            <h3><a>(400г) - 56грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem rice">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img18.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 18</a> Рис з телятиною Hot!</a>
+                                            </h3>
+                                            <h4><a>рис, телятина, пекінська капуста, цибуля, морква, яйце, кунжут, імбир, часник, гостро-солодкий соус </a></h4>
+                                            <h3><a>(400г) - 56грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem rice">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img19.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 19</a> Рис з мідіями</a>
+                                            </h3>
+                                            <h4><a>рис, мідії, пекінська капуста, цибуля, морква, яйце, кунжут, імбир, часник, ананасовий соус</a></h4>
+                                            <h3><a>(400г) - 76грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem rice">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img20.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 20</a> Рис з креветками</a>
+                                            </h3>
+                                            <h4><a>рис, креветки, пекінська капуста,цибуля, морква, яйце, кунжут, імбир, часник, апельсиновий соус</a></h4>
+                                            <h3><a>(400г) - 76грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem rice">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img21.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 21</a> Рис з куркою</a>
+                                            </h3>
+                                            <h4><a>рис, курка, пекінська капуста, цибуля, морква, яйце, кунжут, імбир, часник, кисло-солодкий соус</a></h4>
+                                            <h3><a>(400г) - 46грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem rice">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img22.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 22</a> Рис "Жовте море"</a>
+                                            </h3>
+                                            <h4><a>рис, мідії, кальмар, креветки, пекінська капуста, морква, цибуля, кунжут, імбир, часник, ананасовий соус</a></h4>
+                                            <h3><a>(400г) - 99грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem rice">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img23.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 23</a> Рис з лососем</a>
+                                            </h3>
+                                            <h4><a>рис, лосось, пекінська капуста, цибуля, морква, гриби, яйце, кунжут, імбир, часник, апельсиновий соус</a></h4>
+                                            <h3><a>(400г) - 88грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem rice">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img24.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 24</a> Рис з креветками і куркою</a>
+                                            </h3>
+                                            <h4><a>рис, курка, креветки, пекінська капуста, цибуля, морква, яйце, кунжут, імбир, часник, апельсиновий соус</a></h4>
+                                            <h3><a>(400г) - 86грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem rice">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img25.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 25</a> Рис з овочами</a>
+                                            </h3>
+                                            <h4><a>рис, стручкова квасоля, цвітна капуста, броколі, цибуля, морква, пекінська капуста, кунжут, імбир, часник, кисло-солодкий соус</a></h4>
+                                            <h3><a>(400г) - 46грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem salad">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img26.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 26</a> Салат Хіяші Вакаме</a>
+                                            </h3>
+                                            <h4><a>водорості Хіяші, водорості Вакаме, кунжут, горіховий соус</a></h4>
+                                            <h3><a>(110г) - 50грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem salad">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img27.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 27</a> Салат з кальмаром</a>
+                                            </h3>
+                                            <h4><a>кальмар маринований, водорості Вакаме, кунжут, горіховий соус</a></h4>
+                                            <h3><a>(110г) - 60грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem salad">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img28.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 28</a> Салат з восьминогом</a>
+                                            </h3>
+                                            <h4><a>восьминіг маринований, водорості Вакаме, кунжут, горіховий соус</a></h4>
+                                            <h3><a>(110г) - 60грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem salad">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img29.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 29</a> Овочевий мікс</a>
+                                            </h3>
+                                            <h4><a>броколі, цвітна капуста, пекінська капуста, морква, часник, кунжут, кисло-солодкий соус</a></h4>
+                                            <h3><a>(350г) - 46грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem meat">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img30.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 30</a> Телятина по-Сичуаньськи</a>
+                                            </h3>
+                                            <h4><a>телятина, морква, пекінська капуста, цибуля, печериці, кунжут, гостро-солодкий соус</a></h4>
+                                            <h3><a>(350г) - 88грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem meat">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img31.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 31</a> Телятина по-Гонконгськи</a>
+                                            </h3>
+                                            <h4><a>телятина, стручкова квасоля, морква, цибуля, пекінська капуста, кунжут, гостро-солодкий соус </a></h4>
+                                            <h3><a>(350г) - 88грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem meat">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img32.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 32</a> Свинина в кисло-солодкому соусі</a>
+                                            </h3>
+                                            <h4><a>свинина, арахіс, пекінська капуста, цибуля, морква, печериці, кунжут, кисло-солодкий соус</a></h4>
+                                            <h3><a>(350г) - 86грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem meat">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img33.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 33</a> Свинина Гу Лао Жоу</a>
+                                            </h3>
+                                            <h4><a>свинина, ананас, морква, імбир, часник, пекінська капуста, кунжут, кисло-солодкий соус</a></h4>
+                                            <h3><a>(350г) - 86грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem meat">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img34.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 34</a> Курка з печерицями в гострому пекучому соусі</a>
+                                            </h3>
+                                            <h4><a>курка, печериці, пекінська капуста, цибуля, морква, кунжут, гостро-пекучий соус</a></h4>
+                                            <h3><a>(350г) - 78грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem meat">
+                                <div class="portfolio-item">
+                                    <img src="img/menu/img35.jpeg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h3><a>№ 35</a> Курча на пекінській капусті в апельсиновому соусі</a>
+                                            </h3>
+                                            <h4><a>курча, пекінська капуста, кунжут, апельсиновий соус</a></h4>
+                                            <h3><a>(350г) - 86грн.</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+
+    </section>
+
+
+    <!-- map -->
+    <section id="section-map" class="clearfix">
+        <div id="map"></div>
+    </section>
+
+    <section id="footer" class="section footer">
+        <div class="container">
+            <div class="row animated opacity mar-bot20" data-andown="fadeIn" data-animation="animation">
+                <div class="col-sm-12 align-center">
+                    <ul class="social-network social-circle">
+                        <li><a href="https://www.facebook.com/WokPanda" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="http://vk.com/wokpanda" class="icoVK" title="VKontakte"><i class="fa fa-vk"></i></a></li>
+                        <li><a href="mailto:pandawokif@gmail.com" class="icoVK" title="Email"><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row align-center copyright">
+                <div class="col-sm-12">
+                    <p>Copyright &copy; 2014 Amoeba - by <a href="http://bootstraptaste.com">Bootstrap Themes</a></p>
+                </div>
+                <div class="col-sm-12">
+                    <p>Розроблено на базі шаблону Bootstrap Amoeba. Всі права - авторські.</p>
+                </div>
+
+                <!--
+                        All links in the footer should remain intact.
+                        Licenseing information is available at: http://bootstraptaste.com/license/
+                        You can buy this theme without footer links online at: http://bootstraptaste.com/buy/?theme=Amoeba
+                    -->
+            </div>
+        </div>
+
+    </section>
+
+
+    <a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>
+
+    <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key= AIzaSyBAWxvX7DaE2e-yl19NyWkZNpP_NC4GS_g&sensor=false"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/fancybox/jquery.fancybox.pack.js"></script>
+    <script src="js/skrollr.min.js"></script>
+    <script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+    <script src="js/jquery.localscroll-1.2.7-min.js"></script>
+    <script src="js/stellar.js"></script>
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/validate.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript">
+        var myLatlng = new google.maps.LatLng(48.922261, 24.715516);
+        var styles = [{
+            "featureType": "administrative",
+            "elementType": "all",
+            "stylers": [{
+                "visibility": "off"
+            }]
+        }, {
+            "featureType": "landscape",
+            "elementType": "all",
+            "stylers": [{
+                "visibility": "simplified"
+            }, {
+                "hue": "#0066ff"
+            }, {
+                "saturation": 74
+            }, {
+                "lightness": 100
+            }]
+        }, {
+            "featureType": "poi",
+            "elementType": "all",
+            "stylers": [{
+                "visibility": "simplified"
+            }]
+        }, {
+            "featureType": "road",
+            "elementType": "all",
+            "stylers": [{
+                "visibility": "simplified"
+            }]
+        }, {
+            "featureType": "road.highway",
+            "elementType": "all",
+            "stylers": [{
+                "visibility": "off"
+            }, {
+                "weight": 0.6
+            }, {
+                "saturation": -85
+            }, {
+                "lightness": 61
+            }]
+        }, {
+            "featureType": "road.highway",
+            "elementType": "geometry",
+            "stylers": [{
+                "visibility": "on"
+            }]
+        }, {
+            "featureType": "road.arterial",
+            "elementType": "all",
+            "stylers": [{
+                "visibility": "off"
+            }]
+        }, {
+            "featureType": "road.local",
+            "elementType": "all",
+            "stylers": [{
+                "visibility": "on"
+            }]
+        }, {
+            "featureType": "transit",
+            "elementType": "all",
+            "stylers": [{
+                "visibility": "simplified"
+            }]
+        }, {
+            "featureType": "water",
+            "elementType": "all",
+            "stylers": [{
+                "visibility": "simplified"
+            }, {
+                "color": "#5f94ff"
+            }, {
+                "lightness": 26
+            }, {
+                "gamma": 5.86
+            }]
+        }]
+        var mapOptions = {
+            zoom: 17,
+            center: myLatlng
+        }
+
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+        var marker = new google.maps.Marker({
+            position: myLatlng,
+        });
+
+        var iw = new google.maps.InfoWindow({
+            content: "WokPanda, Грушевського, 22a, +38 (099) 286-26-23"
+        });
+        google.maps.event.addListener(marker, "click", function(e) {
+            iw.open(map, this);
+        });
+
+
+        // To add the marker to the map, call setMap();
+        marker.setMap(map);
+        map.setOptions({
+            styles: styles
+        });
+    </script>
+</body>
+
+</html>
